@@ -4,13 +4,13 @@
 
 ### Primary
 
-- hsl(243, 86%, 85%)
-- hsl(243, 87%, 12%)
+- hsl(243, 86%, 85%) rightshow
+- hsl(243, 87%, 12%) leftshow, footer
 
 ### Accent
 
-- hsl(163, 95%, 43%)
-- hsl(243, 58%, 33%)
+- hsl(163, 95%, 43%) button
+- hsl(243, 58%, 33%) middle grd
 
 ### Neutral
 

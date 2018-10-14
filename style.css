@@ -1,0 +1,87 @@
+html,body{
+	font-size: 10px;
+	font-family: "Open Sans", arial;
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.btn{
+  background-color: hsl(163, 95%, 43%);
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.container{
+	width:90%;
+	overflow: hidden;
+	margin: auto;
+}
+
+header{
+	overflow: auto;
+	padding-top:20px;
+	background-image: linear-gradient(to right,hsl(243, 87%, 12%),hsl(243, 58%, 33%),hsl(243, 86%, 85%)) ;
+}
+.comp{
+	float: left;
+}
+.comp img{
+	width:80px;
+}
+
+nav{
+	float: right;
+	font-size: 1.5rem;
+	color:#ffffff;
+}
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right:15px;
+	height:35px;
+	width:100px;
+	text-align: center;
+	padding-top:4px;
+}
+
+.show-case{
+	height: 80vh;
+    position:relative;
+	background-image: linear-gradient(to right,hsl(243, 87%, 12%),hsl(243, 58%, 33%),hsl(243, 86%, 85%)) ;
+}
+
+
+
+.show-case h3{
+	color:#ffffff;
+	font-size: 2.1rem;
+}
+.show-case img{
+	width:250px;
+	height:auto;
+	position: absolute;
+	top:20%;
+	left:65%;
+
+}
+.seller-l{
+	position:absolute;
+	top:20%;
+}
+.seller-l a{
+   margin-top:30px;
+   height:40px;
+   width:49%;
+   display: block;
+   text-align: center;
+   font-size:1.7rem;
+   padding-top:6px;
+}
