@@ -55,6 +55,9 @@ nav ul li{
 .show-case{
 	height: 80vh;
     position:relative;
+                            /* top-left, top-right, bottom-right, bottom-left */
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 100%, 0 65%);
+            clip-path:polygon(0 0, 100% 0, 100% 100%, 0 65%);
 	background-image: linear-gradient(to right,hsl(243, 87%, 12%),hsl(243, 58%, 33%),hsl(243, 86%, 85%)) ;
 }
 
